@@ -1,4 +1,4 @@
-[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/page-list-template-variables.glade")]
+[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/page-list-template-variables.ui")]
 class ValdoGTK.VariablesPage : Gtk.ScrolledWindow {
 	[GtkChild] private unowned Gtk.EventBox list_parent;
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="/cz/pervoj/valdo-gtk">
+		<file>main-window.ui</file>
+		<file>list-item.ui</file>
+		<file>form-list-item.ui</file>
+		<file>page-list-latest-projects.ui</file>
+		<file>no-projects.ui</file>
+		<file>page-list-available-templates.ui</file>
+		<file>page-list-template-variables.ui</file>
+		<file>page-creating-success.ui</file>
+		<file>preferences-window.ui</file>
+	</gresource>
+</gresources>

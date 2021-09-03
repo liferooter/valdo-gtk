@@ -1,4 +1,4 @@
-[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/page-list-available-templates.glade")]
+[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/page-list-available-templates.ui")]
 class ValdoGTK.TemplatesPage : Gtk.ScrolledWindow {
 	[GtkChild] private unowned Gtk.ListBox template_list;
 

@@ -1,4 +1,4 @@
-[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/page-list-latest-projects.glade")]
+[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/page-list-latest-projects.ui")]
 class ValdoGTK.ProjectsPage : Gtk.ScrolledWindow {
 	[GtkChild] private unowned Gtk.EventBox list_parent;
 
@@ -59,7 +59,7 @@ class ValdoGTK.ProjectsPage : Gtk.ScrolledWindow {
 			list_parent.add (latest_project_list);
 			latest_project_list.show_all ();
 		} else {
-			var builder = new Gtk.Builder.from_resource ("/cz/pervoj/valdo-gtk/no-projects.glade");
+			var builder = new Gtk.Builder.from_resource ("/cz/pervoj/valdo-gtk/no-projects.ui");
 			var image = builder.get_object ("icon") as Gtk.Image;
 			assert (image != null);
 			image.icon_name = Config.ICON_NAME;

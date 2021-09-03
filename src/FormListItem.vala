@@ -1,4 +1,4 @@
-[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/form-list-item.glade")]
+[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/form-list-item.ui")]
 class ValdoGTK.FormListItem : Gtk.Box {
 	[GtkChild] private unowned Gtk.Label title_label;
 

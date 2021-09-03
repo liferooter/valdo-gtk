@@ -1,4 +1,4 @@
-[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/preferences-window.glade")]
+[GtkTemplate (ui = "/cz/pervoj/valdo-gtk/preferences-window.ui")]
 class ValdoGTK.PreferencesWindow : Gtk.Window {
     private Settings settings_preferences = new Settings ("cz.pervoj.valdo-gtk.preferences");
 

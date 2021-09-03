@@ -1,6 +1,6 @@
 gnome = import('gnome')
 
-resources_xml = files('resources.xml')
+resources_xml = files('valdo-gtk.gresource.xml')
 resources = gnome.compile_resources('resources', resources_xml, source_dir: '.')
 
 resource_args = [ # valac args
