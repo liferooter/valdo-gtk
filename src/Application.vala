@@ -6,6 +6,10 @@ class ValdoGTK.App : Gtk.Application {
 
 	public override void startup () {
 		base.startup ();
+
+		// Initialize libhandy
+		Hdy.init();
+
 		Environment.set_application_name (_("Valdo GTK"));
 
 		Gtk.Settings? gtk_settings = Gtk.Settings.get_default ();

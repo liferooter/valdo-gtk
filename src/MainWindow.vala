@@ -1,5 +1,5 @@
 [GtkTemplate (ui = "/cz/pervoj/valdo-gtk/main-window.ui")]
-class ValdoGTK.MainWindow : Gtk.ApplicationWindow {
+class ValdoGTK.MainWindow : Hdy.ApplicationWindow {
 	[GtkChild] private unowned Gtk.Stack pages_stack;
 
 	[GtkChild] private unowned Gtk.Image add_back_button_image;
