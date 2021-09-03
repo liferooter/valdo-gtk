@@ -55,6 +55,7 @@ deps = [
   dependency('gio-2.0'),
   dependency('json-glib-1.0'),
   dependency('gtk+-3.0'),
+  dependency('libhandy-1'),
   project_config_dep
 ]
 
